@@ -6,3 +6,5 @@ gem 'dashing'
 gem 'twitter', '>= 5.0.0'
 
 gem 'newrelic_rpm'
+gem 'octokit'
+gem 'actionview'
