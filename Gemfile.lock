@@ -35,6 +35,7 @@ GEM
     multi_json (1.10.0)
     multipart-post (2.0.0)
     naught (1.0.0)
+    newrelic_rpm (3.9.0.229)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -86,4 +87,5 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  newrelic_rpm
   twitter (>= 5.0.0)
