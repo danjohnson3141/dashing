@@ -10,7 +10,7 @@ twitter = Twitter::REST::Client.new do |config|
   config.oauth_token_secret = 'Z7rKrDSbCdE3ufld6ARjT5sTP9H0XnOzOLqLVfgfaB73k'
 end
 
-search_term = URI::encode('#rails')
+search_term = URI::encode('@DEVOPS_BORAT')
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
   begin
