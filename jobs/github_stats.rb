@@ -11,7 +11,7 @@ Octokit.configure do |c|
 end
 
 
-SCHEDULER.every '1m', :first_in => 0 do |job|
+SCHEDULER.every '2m', :first_in => 0 do |job|
   config["repos"].each do |name|
     r = Octokit::Client.new.repository(name)
     pulls = Octokit.pulls(name, :state => 'open').count

@@ -1,4 +1,6 @@
-.widget.widget-github-stats.github_stats {
+
+// .widget.widget-github-stats.github_stats {
+.widget.widget-github-stats {
   vertical-align: text-top;
   background-color: #DDDDDD;
   background-image: url("/assets/GitHub-Mark-Light-120px-plus.png");
@@ -9,11 +11,12 @@
 }
 
 .title {
-  color: #fff;
+  color: #000;
   padding: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
   .repo_name {
     font-weight: bolder;
+    text-decoration: underline;
   }
 }
 .main {
@@ -21,14 +24,15 @@
   color: #000000;
 }
 
-.label.github {
-  display: inline-block;
-  font-size: 1em;
-  padding: 10px;
-  width: 45%;
-  text-align: right;
+.label {
+  &.github {
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+    width: 45%;
+    text-align: right;
+  }
 }
-
 
 .count {
   display: inline-block;
@@ -36,7 +40,7 @@
   font-size: 1em;
   padding: 10px;
   text-align: left;
-  font-weight: bolder;
+  // font-weight: bolder;
 }
 
 .date {
@@ -45,5 +49,5 @@
   font-size: 1em;
   padding: 10px;
   text-align: left;
-  font-weight: bolder;
+  // font-weight: bolder;
 }
