@@ -1,5 +1,5 @@
 buzzwords = ['Paradigm shift', 'Leverage', 'Pivoting', 'Turn-key', 'Streamlininess', 'Exit strategy', 'Synergy', 'Enterprise', 
-  'Web 2.0', 'Over the Top', 'Onboarded', 'Envisioneer' '60,000 foot level', 'Blamestorming', 'Mindshare'] 
+  'Web 2.0', 'Over the Top', 'Onboarded', 'Envisioneer', '60,000 foot level', 'Blamestorming', 'Mindshare'] 
 buzzword_counts = Hash.new({ value: 0 })
 
 SCHEDULER.every '2s' do
