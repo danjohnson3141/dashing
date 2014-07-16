@@ -4,6 +4,11 @@
 
 http://dashingdan.herokuapp.com/sample
 
+Incorporates the following widgets:
+* Number Widget
+* Twitter Feed Widget
+* Image Widget
+* Github Widget
 
-###dashing
+####dashing
 Check out http://shopify.github.com/dashing for more information.
