@@ -13,7 +13,7 @@ SCHEDULER.every '2s' do
   y_size = y.sample
 
   
-  image = "http://lorempizza.com/#{x_size}/#{y_size}" if i % 2 == 0
+  image = "http://placegoat.com/#{x_size}/#{y_size}" if i % 2 == 0
   image = "http://placekitten.com/#{x_size}/#{y_size}" unless i % 2 == 0
   i += 1
 
