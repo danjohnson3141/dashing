@@ -1,8 +1,10 @@
 ###Dashing Dashboard Evaluation
 
-<a href='http://postimg.org/image/dycx26pbz/' target='_blank'><img src='http://s3.postimg.org/dycx26pbz/Screen_Shot_2014_07_15_at_12_31_47_PM.jpg' border='0' alt="Screen Shot 2014 07 15 at 12 31 47 PM" /></a>
+<a href='http://devnomicon.com' target='_blank'><img src='http://s3.postimg.org/dycx26pbz/Screen_Shot_2014_07_15_at_12_31_47_PM.jpg' border='0' alt="Devnomicon" /></a>
 
-http://dashingdan.herokuapp.com/sample
+A sample dashboard created using dashing framework and Sinatra.
+
+<a href="http://devnomicon.com">devnomicon.com</a>
 
 Incorporates the following widgets:
 * Number Widget
@@ -11,4 +13,4 @@ Incorporates the following widgets:
 * Github Widget
 
 ####dashing
-Check out http://shopify.github.com/dashing for more information.
+Check out <a href="http://shopify.github.com/dashing">http://shopify.github.com/dashing</a> for more information.
