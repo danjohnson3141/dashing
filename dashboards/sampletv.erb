@@ -9,8 +9,8 @@ $(function() {
 
 
 <% content_for :title do %>Devnomicon Dashboard 1080p<% end %>
-
 <div class="gridster">
+  <button style="margin-left: 20px"><a href="/sample">720p Dashboard</a></button>
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-view="Clock"></div>
@@ -54,6 +54,13 @@ $(function() {
       <div data-id="danjohnson3141/dashing" data-view="GithubStats" style="background-color:#95c10f;"></div>
     </li>
 
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="bathroom" data-view="Number" data-title="Bathroom Queue" style="background-color:teal"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Thanks for stopping by. Visit turtlesthewholewaydown.com for more of my work." data-moreinfo="Protip: You can drag the widgets around!"></div>
+    </li>
   </ul>
   <!-- <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://<%=request.host%>:<%=request.port%>/widgets/welcome</div></center> -->
 </div>
