@@ -1,10 +1,10 @@
 ###Dashing Dashboard Evaluation
 
-<a href='http://devnomicon.com' target='_blank'><img src='http://s3.postimg.org/dycx26pbz/Screen_Shot_2014_07_15_at_12_31_47_PM.jpg' border='0' alt="Devnomicon" /></a>
+<a href='http://www.devnomicon.com' target='_blank'><img src='http://s3.postimg.org/dycx26pbz/Screen_Shot_2014_07_15_at_12_31_47_PM.jpg' border='0' alt="Devnomicon" /></a>
 
 A sample dashboard created using dashing framework and Sinatra.
 
-<a href="http://devnomicon.com">devnomicon.com</a>
+<a href="http://www.devnomicon.com">devnomicon.com</a>
 
 Incorporates the following widgets:
 * Number Widget
