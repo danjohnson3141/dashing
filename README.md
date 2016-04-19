@@ -4,7 +4,7 @@
 
 A sample dashboard created using dashing framework and Sinatra.
 
-<a href="http://www.devnomicon.com">devnomicon.com</a>
+<a href="http://www.devnomicon.com">www.devnomicon.com</a>
 
 Incorporates the following widgets:
 * Number Widget
